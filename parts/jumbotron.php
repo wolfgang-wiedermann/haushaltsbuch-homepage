@@ -16,8 +16,11 @@
         Ein Haushaltsbuch, bei dem Sie bestimmen, in welchen Strukturen Sie 
         Ihre Einnahmen und Ausgaben verwalten.
         </p>
-        <p><a href="http://download.html5-haushaltsbuch.de" target="_blank" 
-              class="btn btn-primary btn-lg" role="button">Jetzt herunterladen</a></p>
+        <p><center><a href="http://download.html5-haushaltsbuch.de" target="_blank" 
+              class="btn btn-primary btn-lg" 
+              role="button">Jetzt herunterladen</a>&nbsp;
+           <a href="https://github.com/wolfgang-wiedermann/php_mobile_accounting" target="_black" 
+              role="button" class="btn btn-lg btn-success">Quellcode einsehen</a></center></p>
     </div>
 </div>
 <!-- Jumbotron Ende -->

@@ -5,7 +5,7 @@ include("header.php");
 include("parts/menu.php");
 // Seiteninhalt 
 include("parts/jumbotron.php");
-
+include("parts/nutzen.php");
 
 // Ende Seiteninhalt
 // Fußbereich

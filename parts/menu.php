@@ -13,7 +13,7 @@
       <ul class="nav navbar-nav">
         <li><a href="#nutzen">Nutzen</a></li>
         <li><a href="#screenshots">Screenshots</a></li>
-        <li><a href="#contact">Impressum</a></li>
+        <li><a href="#impressum">Impressum</a></li>
       </ul>
     </div><!--/.nav-collapse -->
   </div>

@@ -1,3 +1,4 @@
+<section id="nutzen">
 <div class="container">
 <!-- Information zum Nutzen des HTML5-Haushaltsbuchs -->
 <div class="starter-template">
@@ -7,5 +8,6 @@
     </p>
 </div>
 </div>
-<!-- Jumbotron Ende -->
+</section>
+<!-- Nutzen des Haushaltsbuch Ende -->
 

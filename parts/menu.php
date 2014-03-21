@@ -11,8 +11,9 @@
     </div>
     <div class="collapse navbar-collapse">
       <ul class="nav navbar-nav">
-        <li><a href="#nutzen">Nutzen</a></li>
+        <li><a href="#nutzen">Erste Schritte</a></li>
         <li><a href="#screenshots">Screenshots</a></li>
+        <li><a href="#installation">Installationsanleitung</a></li>
         <li><a href="#impressum">Impressum</a></li>
       </ul>
     </div><!--/.nav-collapse -->

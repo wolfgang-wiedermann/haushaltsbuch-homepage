@@ -8,6 +8,7 @@ include("parts/jumbotron.php");
 include("parts/nutzen.php");
 include("parts/installieren.php");
 include("parts/screenshots.php");
+include("parts/geschichte.php");
 include("parts/impressum.php");
 // Ende Seiteninhalt
 // Fußbereich

@@ -14,6 +14,7 @@
         <li><a href="#nutzen">Erste Schritte</a></li>
         <li><a href="#screenshots">Screenshots</a></li>
         <li><a href="#installation">Installationsanleitung</a></li>
+        <li><a href="#geschichte">Geschichte</a></li>
         <li><a href="#impressum">Impressum</a></li>
       </ul>
     </div><!--/.nav-collapse -->

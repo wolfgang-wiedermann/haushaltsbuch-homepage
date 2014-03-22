@@ -1,6 +1,12 @@
 body {
   padding-top: 70px;
 }
+
+.after-image {
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+
 .starter-template {
   padding: 40px 15px;
 }

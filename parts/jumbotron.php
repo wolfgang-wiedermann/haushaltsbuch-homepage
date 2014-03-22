@@ -13,7 +13,7 @@
         <li>Mit öffentlich und frei verfügbarem Quellcode.</li>
         </ul>
         <p>
-        Ein Haushaltsbuch, bei dem Sie bestimmen, in welchen Strukturen Sie 
+        Ein Haushaltsbuch bei dem Sie bestimmen, in welchen Strukturen Sie 
         Ihre Einnahmen und Ausgaben verwalten.
         </p>
         <p><center><a href="http://download.html5-haushaltsbuch.de" target="_blank" 

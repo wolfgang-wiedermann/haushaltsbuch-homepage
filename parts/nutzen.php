@@ -29,12 +29,6 @@
     nun am Haushaltsbuch angemeldet. Das erkennen Sie daran, dass Sie die folgende Maske in Ihrem Browser angezeigt bekommen.
     </p>
     <img src="./img/erste_schritte_erfolgreich_angemeldet.png" class="img-thumbnail" alt="Erfolgreich angemeldet"/>
-    <h2>Vorgefertigte Kontenpläne</h2>
-    <div class="alert alert-success" style="font-size:14pt">
-    Wenn Sie die gesamte Flexibilität des HTML5-Haushaltsbuchs nutzen wollen sollten Sie
-    sich einen <u>eigenen Kontenplan</u> definieren, der an Ihre persönlichen Gegebenheiten angepasst
-    ist. Wie das funktioniert beschreiben wir am Ende dieses Kapitels unter dem Punkt "Eigener Kontenplan".
-    </div>
 
     <h2>Kontenarten</h2>
     <p>
@@ -45,7 +39,47 @@
         <li><b>Aufwandskonten</b> - Zur Kategorisierung von Ausgaben" bzw. Aufwendungen (Tanken, Heizen, Essen, Strom)</li>
         <li><b>Ertragskonten</b> - Zur Kategorisierung von Einkünften (Gehalt, Nebentätigkeiten, Geschenke, eBay-Verkäufe)</li>
     </ul>
-    </p>
+    Die Kontenarten Aktiv und Passiv werden in der Bilanz dargestellt. Die Aktivseite der Bilanz zeigt somit welche Vermögensbestandteile
+    vorhanden sind. Die Passivseite stellt dar, zu welchen Teilen das Vermögen wem gehört. 
+    <h3>Beispiel einer Bilanz</h3>
+    <table class="balance" alt="Bilanz als Tabelle">
+    <thead>
+    <tr><td>Aktiva</td><td>Betrag</td><td class="balance-delimiter">Passiva</td><td>Betrag</td></tr>
+    </thead>
+    <tbody>
+    <tr><td>Gartengrundstück</td><td class="balance-delimited">5.000,-- &euro;</td><td>Eigenkapital</td><td>200.000,-- &euro;</td></tr>
+    <tr><td>Hausgrundstück</td><td class="balance-delimited">50.000,-- &euro;</td><td>Grundschulddarlehen</td><td>50.000,-- &euro;</td></tr>
+    <tr><td>Haus</td><td class="balance-delimited">250.000,-- &euro;</td><td>Bauspardarlehen</td><td>80.000,-- &euro;</td></tr>
+    <tr><td>Auto</td><td class="balance-delimited">8.000,-- &euro;</td></tr>
+    <tr><td>Girokonto</td><td class="balance-delimited">10.000,-- &euro;</td></tr>
+    <tr><td>Sparbriefe</td><td class="balance-delimited">10.000,-- &euro;</td></tr>
+    <tr><td>Geldbeutel</td><td>250,-- &euro;</td><td>Gewinn:</td><td>3.250,-- &euro;</td></tr>
+    </tbody>
+    </table>
+    Die Kontenarten Aufwand und Ertrag hingegen werden in der Gewinn- und Verlustrechnung dargestellt. Sie stellt detailliert dar
+    woher das verfügbare Geld kommt und wohin es wieder verschwindet. Die Differenz aus Aufwand und Ertrag gibt in unserem Fall den Gewinn.
+    <h3>Beispiel einer Gewinn- und Verlustrechnung</h3>
+    <table class="balance" alt="Gewinn- und Verlustrechnung">
+    <thead>
+    <tr><td>Aufwand</td><td>Betrag</td><td class="balance-delimiter">Ertrag</td><td>Betrag</td></tr>
+    </thead>
+    <tbody>
+    <tr><td>Miete</td><td>400,-- &euro;</td><td>Gehalt</td><td>1.900,-- &euro;</td></tr>
+    <tr><td>Lebensmittel</td><td>150,-- &euro;</td></tr>
+    <tr><td>Sprit</td><td>100,-- &euro;</td></tr>
+    <tr><td>Telefon und Internet</td><td>50,-- &euro;</td></tr>
+    <tr><td><b>Gewinn</b></td><td>1.300,-- &euro;</td></tr>
+    </tbody>
+    </table>
+    </p>    
+
+    <h2>Vorgefertigte Kontenpläne</h2>
+    <div class="alert alert-success" style="font-size:14pt">
+    Wenn Sie die gesamte Flexibilität des HTML5-Haushaltsbuchs nutzen wollen sollten Sie
+    sich einen <u>eigenen Kontenplan</u> definieren, der an Ihre persönlichen Gegebenheiten angepasst
+    ist. Wie das funktioniert beschreiben wir am Ende dieses Kapitels unter dem Punkt "Eigener Kontenplan".
+    </div>
+
 </div>
 </div>
 </section>

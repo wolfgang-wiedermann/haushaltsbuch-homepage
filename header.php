@@ -12,7 +12,7 @@
     <meta name="page-type" content="Produktinfo">
     <meta name="audience" content="Alle"><meta http-equiv="content-language" content="de">
     <meta name="robots" content="index, follow">
-    <title>HTML5-Haushaltsbuch</title>
+    <title>HTML5-Haushaltsbuch - Das OpenSource Haushaltsbuch</title>
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <!-- Bootstrap theme -->
@@ -25,4 +25,4 @@
       <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
   </head>
-  <body role="document">
+  <body role="document" itemscope itemtype="http:schema.org/Product">

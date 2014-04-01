@@ -1,7 +1,7 @@
 <!-- Jumbotron -->
 <div class="container">
 <!-- Main jumbotron for a primary marketing message or call to action -->
-    <div class="jumbotron">
+    <div class="jumbotron" itemprop="description">
         <h1>Das flexible Haushaltsbuch</h1>
         <p>
         Behalten Sie die Kosten in Ihrem Haushalt im Blick.
@@ -18,9 +18,14 @@
         </p>
         <p><center><a href="http://download.html5-haushaltsbuch.de" target="_blank" 
               class="btn btn-primary btn-lg" 
-              role="button">Jetzt herunterladen</a>&nbsp;
-           <a href="https://github.com/wolfgang-wiedermann/php_mobile_accounting" target="_black" 
-              role="button" class="btn btn-lg btn-success">Quellcode einsehen</a></center></p>
+              role="button">Jetzt herunterladen</a>
+           &nbsp;
+           <a href="https://github.com/wolfgang-wiedermann/php_mobile_accounting" target="_blank" 
+              role="button" class="btn btn-lg btn-success">Quellcode einsehen</a>
+           &nbsp;
+           <a href="http://demo.html5-haushaltsbuch.de/html/" target="_blank"
+              role="button" class="btn btn-lg btn-primary">Demosystem starten</a>
+        </center></p>
     </div>
 </div>
 <!-- Jumbotron Ende -->

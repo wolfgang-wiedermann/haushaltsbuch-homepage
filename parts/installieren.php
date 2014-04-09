@@ -10,12 +10,12 @@
     # cd /var/www <br/>
     # mkdir fibu <br/>
     # cd fibu <br/>
-    # wget https://github.com/wolfgang-wiedermann/php_mobile_accounting/archive/v0.1.01.tar.gz <br/>
-    # tar -zxf v0.1.01.tar.gz <br/>
-    # cd php_mobile_accounting-0.1.01 <br/>
+    # wget https://github.com/wolfgang-wiedermann/php_mobile_accounting/archive/v0.1.02.tar.gz <br/>
+    # tar -zxf v0.1.02.tar.gz <br/>
+    # cd php_mobile_accounting-0.1.02 <br/>
     # mv * .. <br/>
     # cd .. <br/>
-    # rm -r php_mobile_accounting-0.1.01 <br/>
+    # rm -r php_mobile_accounting-0.1.02 <br/>
     # cd lib <br/>
     # cp Database.php.template Database.php <br/>
     # vim Database.php <br/>

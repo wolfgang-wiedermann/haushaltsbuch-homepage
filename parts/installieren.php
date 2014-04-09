@@ -4,10 +4,18 @@
 <div class="starter-template">
     <h1>Installationsanleitung</h1>
     <p class="lead">
-    Beispiel: Installation unter Debian oder Ubuntu
+    Installation unter Windows (mit XAMPP)
     </p>
-    <code class="code">
-    # cd /var/www <br/>
+    <p>
+    Eine Installationsanleitung für das HTML5-Haushaltsbuch unter Windows mit <a href="https://www.apachefriends.org/de/index.html">XAMPP</a> wird bald zur Verfügung gestellt.
+    </p>
+    <p class="lead">
+    Installation unter Debian oder Ubuntu
+    </p>
+    <p>
+    Vor der Installation laut folgendem Code-Listing bitte falls nicht bereits vorhanden apache2, php5 und mysql5.x z. B. mittels apt-get installieren.
+    </p>
+    <p class="code"><code class="code"># cd /var/www <br/>
     # mkdir fibu <br/>
     # cd fibu <br/>
     # wget https://github.com/wolfgang-wiedermann/php_mobile_accounting/archive/v0.1.02.tar.gz <br/>
@@ -31,7 +39,7 @@
     # htpasswd -c .passwd benutzername <br/>
     # vim .htaccess <br/>
     // Noch den Pfad zur Datei .passwd eintragen <br/>
-    </code>
+    </code></p>
 </div>
 </div>
 </section>

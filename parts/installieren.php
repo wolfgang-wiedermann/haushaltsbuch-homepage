@@ -15,6 +15,10 @@
     <p>
     Vor der Installation laut folgendem Code-Listing bitte falls nicht bereits vorhanden apache2, php5 und mysql5.x z. B. mittels apt-get installieren.
     </p>
+    <p>
+    <b>Hinweis:</b> Für die Vereinfachung der Installation wird derzeit ein Installer entwickelt, dieser wird im Rahmen des kommenden Release 0.1.03 ausgeliefert werden.
+    Ein verbindlicher Zeitpunkt für die Veröffentlichung von Release 0.1.03 steht noch nicht fest.
+    </p>
     <p class="code"><code class="code"># cd /var/www <br/>
     # mkdir fibu <br/>
     # cd fibu <br/>
@@ -39,6 +43,18 @@
     # htpasswd -c .passwd benutzername <br/>
     # vim .htaccess <br/>
     // Noch den Pfad zur Datei .passwd eintragen <br/>
+    </code></p>
+    <p class="lead">
+    Installation eines Beispiel-Kontenplans mit vorbereiteten Buchungs-Shortcuts
+    </p>
+    <p>
+    Die Installation des Beispiel-Kontenplans setzt ein vollständig installiertes HTML5-Haushaltsbuch (siehe Beispiel für Ubuntu oder Debian) voraus.
+    </p>
+    <p class="code"><code class="code">
+    # wget https://raw.githubusercontent.com/wolfgang-wiedermann/php_mobile_accounting/master/sql/sample_kontenplan_single.sql<br/>
+    # mysql -u BENUTZERNAME -p<br/>
+    mysql&gt; \. sample_kontenplan_single.sql<br/>
+    mysql&gt; quit<br/>
     </code></p>
 </div>
 </div>

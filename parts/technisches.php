@@ -43,9 +43,9 @@
     </p>
     <p>
     Danach sollten Sie alle Funktionen des Haushaltsbuchs kurz durchtesten. Sollte irgendetwas nicht funktionieren müssen Sie
-    ggf. die Installation (install.php) nochmals durchlaufen. <b>Achten Sie in diesem Fall bitte darauf</b> nicht Ihre originale
-    Datenbank zu verwenden, da install.php diese löschen und neu anlegen würde. Dabei würden alle Buchungen und Konten
-    verloren gehen!
+    ggf. die Installation (install.php) nochmals durchlaufen. <b>Achten Sie in diesem Fall bitte darauf</b> nicht Ihre 
+    originale Datenbank zu verwenden, da install.php diese löschen und neu anlegen würde. Dabei würden alle Buchungen und 
+    Konten verloren gehen!
     </p>
 </div>
 <div id="erweitern">
@@ -55,6 +55,19 @@
     und eine <b>Testinstallation des Haushaltsbuchs</b>, wie unter "Immer die aktuellste Version einestzen" beschrieben voraus.
     Wenn Sie über beides verfügen zeigt Ihnen der folgende Abschnitt, wie Sie eigene Masken und Funktionen integrieren können
     ohne diese beim Update des Systems zu verlieren. 
+    </p>
+    <p>
+    <b>Schritt 1: Quellcode und Änderungen verwalten</b><br/>Um eigene Änderungen und die Updates des sich ständig 
+    weiterentwickelnden HTML5-Haushaltsbuchs zu integrieren ist es erforderlich auch die eigenen Änderungen mittels Git zu
+    verwalten. Hierzu legen Sie mit <code>git branch NAME_IHRER_ERWEITERUNG</code> für Ihre eigenen Änderungen einen 
+    eigenen Branch an und laden diesen mit <code>git checkout NAME_IHRER_ERWEITERUNG</code> als derzeit aktiven Branch.
+    </p>
+    <p>
+    <b>Hinweis: </b>Welcher Branch gerade aktiv ist sehen Sie nach der Eingabe von <code>git branch</code>.
+    </p>
+    <p>
+    <b>Schritt 2: Quelldateien anlegen</b><br/>Um zu vermeiden, dass sich aus Ihrer Erweiterung und den Standard-Funktionen
+    des HTML5-Haushaltsbuchs konflikte ergeben müssen für die Erweiterung eiegene Quellcode-Dateien angelegt werden.
     </p>
 </div>
 </div>

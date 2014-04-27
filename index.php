@@ -1,4 +1,5 @@
 <?php
+$title = null;
 // Kopfbereich
 include("header.php");
 // Menüleiste

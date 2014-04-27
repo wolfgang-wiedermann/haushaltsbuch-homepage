@@ -11,7 +11,7 @@
     </div>
     <div class="collapse navbar-collapse">
       <ul class="nav navbar-nav">
-        <li><a href="index.html#nutzen">Erste Schritte</a></li>
+<!--        <li><a href="index.html#nutzen">Erste Schritte</a></li> -->
         <li><a href="index.html#screenshots">Screenshots</a></li>
         <li><a href="installation.html">Installationsanleitung</a></li>
         <li><a href="technisches.html">Technische Tipps</a></li>

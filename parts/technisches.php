@@ -67,7 +67,54 @@
     </p>
     <p>
     <b>Schritt 2: Quelldateien anlegen</b><br/>Um zu vermeiden, dass sich aus Ihrer Erweiterung und den Standard-Funktionen
-    des HTML5-Haushaltsbuchs konflikte ergeben müssen für die Erweiterung eiegene Quellcode-Dateien angelegt werden.
+    des HTML5-Haushaltsbuchs konflikte ergeben müssen für die Erweiterung eigene Quellcode-Dateien angelegt werden.
+    Wie das von statten geht lässt sich am besten anhand eines Beispiels beschreiben. Hierfür gehen wir von einer
+    Erweiterung mit dem Namen "letzte_eintraege" aus. 
+    </p>
+    <p>
+    Für diese Erweiterung sind dann die folgenden Dateien erforderlich:
+    <ul>
+    <li>./controller/LetzteEintraegeController.php</li>
+    <li>./html/parts/letzte_eintraege_form.php</li>
+    </ul>
+    Für die Einbindung der Datei <b>LetzteEintraegeController.php</b> ist nichts weiter zu tun. Sie erfolgt automatisch 
+    durch das Framework. Der folgende Code-Schnipsel beschreibt, wie Sie die Datei inhaltlich aufbauen müssen, um eine
+    Einbindung in das Framework zu erreichen.<br/>
+    <p class="code"><code class="code">
+    class LetzteEintraegeController {<br/>
+    <br/>
+    private $dispatcher, $mandant_id;<br/>
+    <br/>
+    # Einsprungpunkt: Hier übergibt das Framework an Ihren Code<br/>
+    function invoke($action, $request, $dispatcher) { <br/>
+    <br/>
+    &nbsp;&nbsp;$this-&gt;dispatcher = $dispatcher; <br/>
+    &nbsp;&nbsp;$this-&gt;mandant_id = $dispatcher-&gt;getMandantId(); </br>
+        <br/>
+    &nbsp;&nbsp;switch($action) { <br/>
+    &nbsp;&nbsp;&nbsp;&nbsp;case "list": <br/>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return $this-&gt;listLetzteEintraege($request); <br/>
+    &nbsp;&nbsp;&nbsp;&nbsp;default: <br/>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$message = array(); <br/>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$message['message'] = "Unbekannte Action"; <br/>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return $message; <br/>
+    &nbsp;&nbsp;} <br/>
+    } <br/>
+    ...<br/>
+    <br/>
+    </code></p>
+    Für die Einbindung der Datei <b>letzte_eintraege_form.php</b> muss die Datei <b>./html/index.php</b> um einen 
+    Include-Eintrag erweitert werden. Wie das geht zeigt der folgende Code-Schnippsel.
+    <p class="code"><code class="code">
+    &lt;div data-role="content"&gt;<br/>
+    &nbsp;&nbsp;&lt;?php include("./parts/navigation.php"); ?&gt;<br/>
+    &nbsp;&nbsp;&lt;?php include("./parts/account_form.php"); ?&gt;<br/>
+    &nbsp;&nbsp;&lt;?php include("./parts/buchung_form.php"); ?&gt;<br/>
+    &nbsp;&nbsp;&lt;?php include("./parts/ergebnis_form.php"); ?&gt;<br/>
+    &nbsp;&nbsp;&lt;?php include("./parts/admin_form.php"); ?&gt;<br/>
+    &nbsp;&nbsp;<b>&lt;?php include("./parts/letzte_eintraege_form.php"); ?&gt; </b><br/>
+    &lt;/div&gt;<br/>
+    </code></p>
     </p>
 </div>
 </div>

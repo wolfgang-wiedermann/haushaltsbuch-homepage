@@ -1,3 +1,8 @@
+<?php
+if(!isset($title)) {
+    $title = "Das OpenSource Haushaltsbuch";
+}
+?>
 <!DOCTYPE html>
 <html lang="de">
   <head>
@@ -13,7 +18,7 @@
     <meta name="audience" content="Alle"><meta http-equiv="content-language" content="de">
     <meta name="robots" content="index, follow">
     <meta name="google-site-verification" content="3fNIF5ROswY3XhBD5DH7qkRCOwhT98WgkgR4BR6yUvA" />
-    <title>HTML5-Haushaltsbuch - Das OpenSource Haushaltsbuch</title>
+    <title>HTML5-Haushaltsbuch - <?php echo $title; ?></title>
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <!-- Bootstrap theme -->

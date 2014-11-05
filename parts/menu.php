@@ -13,9 +13,20 @@
       <ul class="nav navbar-nav">
 <!--        <li><a href="index.html#nutzen">Erste Schritte</a></li> -->
         <li><a href="index.html#screenshots">Screenshots</a></li>
-        <li><a href="installation.html">Installationsanleitung</a></li>
+        <li><a href="installation.html">Installation</a></li>
+<!--
         <li class="dropdown">
-		<a href="#" class="dropdown-toggle" data-toggle="dropdown">Wissenswertes</a>
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Installation</a>
+                <ul class="dropdown-menu" role="menu">
+                <li><a href="installation.html">Installation unter Linux</a></li>
+                <li><a href="installation.html">Installation unter Windows</a></li>
+                <li><a href="installation.html">Installation mit Docker</a></li>
+                <li><a href="installation.html">Manuelle Installation</a></li>
+                </ul>
+        </li>        
+-->
+        <li class="dropdown">
+		<a href="#" class="dropdown-toggle" data-toggle="dropdown">Anleitungen</a>
 		<ul class="dropdown-menu" role="menu">
 		<li><a href="kontenplan_howto.html">Wie gestalte ich einen Kontenplan?</a></li>
 		</ul>

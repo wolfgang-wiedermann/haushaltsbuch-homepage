@@ -1,6 +1,4 @@
-<!-- Ankuendigung -->
 <div class="container" id="ankuendigung_dialog">
-<!-- Main jumbotron for a primary marketing message or call to action -->
     <div class="jumbotron" itemprop="description">
         <h1>Wie gestalte ich einen eigenen Kontenplan?</h1>
         <p>
@@ -88,4 +86,3 @@
     <b>Bitte beachten Sie folgendes: Es ist nicht möglich einmal angelegte Konten zu löschen oder deren Kontonummern zu verändern!</b>
     </div>
 </div>
-<!-- Ankuendigung Ende -->

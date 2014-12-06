@@ -100,19 +100,15 @@
     <p>
     Vor der Installation laut folgendem Code-Listing bitte falls nicht bereits vorhanden apache2, php5 und mysql5.x z. B. mittels apt-get installieren.
     </p>
-    <p>
-    <b>Hinweis:</b> Für die Vereinfachung der Installation wird derzeit ein Installer entwickelt, dieser wird im Rahmen des kommenden Release 0.1.03 ausgeliefert werden.
-    Ein verbindlicher Zeitpunkt für die Veröffentlichung von Release 0.1.03 steht noch nicht fest.
-    </p>
     <p class="code"><code class="code"># cd /var/www <br/>
     # mkdir fibu <br/>
     # cd fibu <br/>
-    # wget https://github.com/wolfgang-wiedermann/php_mobile_accounting/archive/v0.1.02.tar.gz <br/>
-    # tar -zxf v0.1.02.tar.gz <br/>
-    # cd php_mobile_accounting-0.1.02 <br/>
+    # wget https://github.com/wolfgang-wiedermann/php_mobile_accounting/archive/v0.1.03.tar.gz <br/>
+    # tar -zxf v0.1.03.tar.gz <br/>
+    # cd php_mobile_accounting-0.1.03 <br/>
     # mv * .. <br/>
     # cd .. <br/>
-    # rm -r php_mobile_accounting-0.1.02 <br/>
+    # rm -r php_mobile_accounting-0.1.03 <br/>
     # cd lib <br/>
     # cp Database.php.template Database.php <br/>
     # vim Database.php <br/>

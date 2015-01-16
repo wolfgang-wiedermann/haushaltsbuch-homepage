@@ -13,18 +13,17 @@
       <ul class="nav navbar-nav">
 <!--        <li><a href="index.html#nutzen">Erste Schritte</a></li> -->
         <li><a href="index.html#screenshots">Screenshots</a></li>
-        <li><a href="installation.html">Installation</a></li>
-<!--
+<!--        <li><a href="installation.html">Installation</a></li> -->
         <li class="dropdown">
                 <a href="#" class="dropdown-toggle" data-toggle="dropdown">Installation</a>
                 <ul class="dropdown-menu" role="menu">
-                <li><a href="installation.html">Installation unter Linux</a></li>
-                <li><a href="installation.html">Installation unter Windows</a></li>
-                <li><a href="installation.html">Installation mit Docker</a></li>
-                <li><a href="installation.html">Manuelle Installation</a></li>
+                <li><a href="installation.html#install_linux">Installation unter Linux</a></li>
+                <li><a href="installation.html#install_windows">Installation unter Windows</a></li>
+<!--                <li><a href="installation.html">Installation mit Docker</a></li>
+                <li><a href="installation.html">Manuelle Installation</a></li> -->
+                <li><a href="update.html#update3to4">Update von 0.1.0.3 nach 0.1.0.4</a></li>
                 </ul>
         </li>        
--->
         <li class="dropdown">
 		<a href="#" class="dropdown-toggle" data-toggle="dropdown">Anleitungen</a>
 		<ul class="dropdown-menu" role="menu">

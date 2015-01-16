@@ -14,10 +14,12 @@
         <li>und verschiedene Detail-Verbesserungen.</li>
         </ul>
         <p>Eine detaillierte Auflistung der &Auml;nderungen bzw. Neuerungen finden Sie im
-        <a href="https://github.com/wolfgang-wiedermann/php_mobile_accounting/compare/v0.1.03...05c5a3073c33f835ade0e5932f27a456b60f848d">Changelog</a> auf Github.<br/>
-<br/>
-Das derzeitige Demosystem basiert noch auf dem alten Release 0.1.03. Eine aktualisierung ist für den Erscheinungszeitpunkt 
-des neuen Releases geplant.
+        <a href="https://github.com/wolfgang-wiedermann/php_mobile_accounting/compare/v0.1.03...v0.1.04">Changelog</a> auf Github.<br/>
+    <br/>
+    Das derzeitige Demosystem basiert noch auf dem alten Release 0.1.03. Eine aktualisierung ist für den Erscheinungszeitpunkt 
+    des neuen Releases geplant.<br/>
+    <br/>
+    Am 16.01.2015 ist ein <a href="./update.html#update3to4">Leitfaden für die Aktualisierung von Release 0.1.03 zu Release 0.1.04</a> erschienen.
     </div>
 </div>
 <!-- Ankuendigung Ende -->

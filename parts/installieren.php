@@ -103,12 +103,12 @@
     <p class="code"><code class="code"># cd /var/www <br/>
     # mkdir fibu <br/>
     # cd fibu <br/>
-    # wget https://github.com/wolfgang-wiedermann/php_mobile_accounting/archive/v0.1.03.tar.gz <br/>
-    # tar -zxf v0.1.03.tar.gz <br/>
-    # cd php_mobile_accounting-0.1.03 <br/>
+    # wget https://github.com/wolfgang-wiedermann/php_mobile_accounting/archive/v0.1.04.tar.gz <br/>
+    # tar -zxf v0.1.04.tar.gz <br/>
+    # cd php_mobile_accounting-0.1.04 <br/>
     # mv * .. <br/>
     # cd .. <br/>
-    # rm -r php_mobile_accounting-0.1.03 <br/>
+    # rm -r php_mobile_accounting-0.1.04 <br/>
     # cd lib <br/>
     # cp Database.php.template Database.php <br/>
     # vim Database.php <br/>

@@ -21,13 +21,14 @@
                 <li><a href="installation.html#install_windows">Installation unter Windows</a></li>
 <!--                <li><a href="installation.html">Installation mit Docker</a></li>
                 <li><a href="installation.html">Manuelle Installation</a></li> -->
-                <li><a href="update.html#update3to4">Update von 0.1.0.3 nach 0.1.0.4</a></li>
+                <li><a href="update.html#update3to4">Update von Version 0.1.03 nach 0.1.04</a></li>
                 </ul>
         </li>        
         <li class="dropdown">
 		<a href="#" class="dropdown-toggle" data-toggle="dropdown">Anleitungen</a>
 		<ul class="dropdown-menu" role="menu">
 		<li><a href="kontenplan_howto.html">Wie gestalte ich einen Kontenplan?</a></li>
+		<li><a href="export_howto.html">Datenexport nach Microsoft Excel oder LibreOffice Calc</a></li>
 		</ul>
         </li>
 <!--        <li><a href="technisches.html">Technische Tipps</a></li> -->

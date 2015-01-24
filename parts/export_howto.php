@@ -35,6 +35,9 @@
     Die so importierten Daten eignen sich besonders gut für eine Auswertung als Pivot-Tabelle. Dazu gehen Sie wie folgt vor.
     </p>
     <li>Klicken Sie mit er Maus in eine Zelle der importierten Daten</li>
+    <li>Drücken Sie Strg-A</li>
+    <p>Das Drücken von Strg-A führt dazu, dass die zusammenhängend gefüllten Zellen markiert werden.
+       Alternativ dazu können Sie auch alle importierten Daten manuell mit der Maus selektieren</p>
     <li>Danach wählen Sie im Menü Daten &gt; Pivot-Tabelle &gt; Erstellen</li>
     <img src="./img/export_howto_pivot_schritt0.png">
     <br/><br/>

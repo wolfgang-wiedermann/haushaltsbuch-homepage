@@ -1,4 +1,4 @@
-<div class="container" id="ankuendigung_dialog">
+<div class="container" id="desktop_integration_dialog">
     <div class="jumbotron" itemprop="description">
         <h1>Integration in den Desktop Ihres Windows- oder Linux-Rechners</h1>
         <p>

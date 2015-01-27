@@ -29,6 +29,7 @@
 		<ul class="dropdown-menu" role="menu">
 		<li><a href="kontenplan_howto.html">Wie gestalte ich einen Kontenplan?</a></li>
 		<li><a href="export_howto.html">Datenexport nach Microsoft Excel oder LibreOffice Calc</a></li>
+		<li><a href="desktop_integration_howto.html">Desktop-Integration des HTML5-Haushaltsbuchs</a></li>
 		</ul>
         </li>
 <!--        <li><a href="technisches.html">Technische Tipps</a></li> -->

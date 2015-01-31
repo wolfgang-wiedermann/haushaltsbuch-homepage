@@ -20,5 +20,9 @@
       <li>Wählen Sie dort "Weitere Tools" &gt; "App-Verknüpfung erstellen"</li>
       <li>Nun können Sie entscheiden, ob Sie die Verknüfung auf dem Desktop und/oder im Startmenü haben wollen</li>
     </ol>
+    <p>
+    Diese Form der Desktop-Integration ist ausschließlich für Windows und Linux verfügbar. Chrome unter OS X unterstützt diese
+    Funktion nicht.
+    </p>
     </div>
 </div>

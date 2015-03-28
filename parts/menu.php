@@ -19,8 +19,8 @@
                 <ul class="dropdown-menu" role="menu">
                 <li><a href="installation.html#install_linux">Installation unter Linux</a></li>
                 <li><a href="installation.html#install_windows">Installation unter Windows</a></li>
-<!--                <li><a href="installation.html">Installation mit Docker</a></li>
-                <li><a href="installation.html">Manuelle Installation</a></li> -->
+                <li><a href="docker.html">Installation mit Docker</a></li>
+<!--                <li><a href="installation.html">Manuelle Installation</a></li> -->
                 <li><a href="update.html#update3to4">Update von Version 0.1.03 nach 0.1.04</a></li>
                 </ul>
         </li>        

@@ -38,15 +38,6 @@
     <li>PHP5 mit Integration in den Apache Webserver (<code>apt-get install libapache2-mod-php5 php5</code>)</li>
     </ul>
     </p>
-<!--
-    <p>
-    Unter Ubuntu werden .htaccess-Dateien standardmäßig nicht durch den Apache-Webserver ausgewertet. Um diese Funktion zu
-    aktivieren ist es erforderlich in der Datei PLATZHALTER den folgenden Eintrag nachzutragen.
-    </p>
-    <p class="code"><code class="code">
-    # cd /etc/apache2/ 
-    </code></p>
--->
     <p>
     Zur Vorbereitung der Installation kopieren Sie bitte die Installationsdateien in das Server-Verzeichnis entpacken.
     Abhängig von der verwendeten Debian bzw. Ubuntu-Version liegt das Root-Verzeichnis des Webservers entweder 
@@ -93,6 +84,31 @@
         Buchungen. Ist alles in Ordnung gehen Sie wie angegeben vor und löschen Sie die Datei install.php und
         den Ordner /install.</td></tr>
     </table>
+    </p>
+    <p class="lead">Sollten danach Fehler auftreten prüfen Sie bitte folgendes:</p>
+    <p>
+    Unter Ubuntu (und manchen anderen Linux Distributionen) werden .htaccess-Dateien standardmäßig nicht durch den Apache-Webserver ausgewertet. Um diese Funktion zu
+    aktivieren ist es erforderlich in der Datei /etc/apache2/apache2.conf einige Einstellungen zu prüfen und ggf. zu korrigieren.
+    </p>
+    <p class="code"><code class="code">
+    # cd /etc/apache2/ <br/>
+    # vim apache2.conf <br/>
+    <br/>
+    Darin: mit "&lt;Esc&gt; /.htaccess" nach dem folgenden Eintrag suchen:<br/>
+    <br/>
+    AccessFileName .htaccess<br/>
+    <br/>
+    Sollte dieser mit einem # auskommentiert sein entfernen Sie das #.<br/>
+    <br/>
+    Danach korrigieren Sie den Bereich &lt;Directory /var/www&gt; so, dass er wie folgt aussieht<br/>
+    &lt;Directory /var/www/&gt;<br/>
+        Options Indexes FollowSymLinks<br/>
+        AllowOverride All<br/>
+        Require all granted<br/>
+    &lt;/Directory&gt;<br/>
+    <br/>
+    und speichern die Datei mit "&lt;Esc&gt; :wq"<br/>
+    </code>
     </p>
     <p class="lead">
     Manuelle Installation unter Debian oder Ubuntu

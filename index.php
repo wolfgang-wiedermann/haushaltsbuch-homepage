@@ -6,7 +6,7 @@ include("header.php");
 include("parts/menu.php");
 // Seiteninhalt 
 include("parts/jumbotron.php");
-include("parts/ankuendigung2.php");
+include("parts/ankuendigung3.php");
 #include("parts/ankuendigung.php");
 #include("parts/carousel.php");
 #include("parts/nutzen.php");

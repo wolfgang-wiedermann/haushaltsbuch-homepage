@@ -31,7 +31,8 @@
 		<li><a href="export_howto.html">Datenexport nach Microsoft Excel oder LibreOffice Calc</a></li>
 		<li><a href="desktop_integration_howto.html">Desktop-Integration des HTML5-Haushaltsbuchs</a></li>
 		</ul>
-        </li>
+	</li>
+        <li><a href="https://github.com/wolfgang-wiedermann/php_mobile_accounting/issues">Fehler melden</a></li>
 <!--        <li><a href="technisches.html">Technische Tipps</a></li> -->
         <li><a href="index.html#geschichte">Geschichte</a></li>
         <li><a href="impressum.html#impressum">Impressum</a></li>
